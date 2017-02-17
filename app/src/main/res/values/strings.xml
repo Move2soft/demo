@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Demo</string>
+    <string name="action_settings">Settings</string>
+    <string name="enter_mobile_no">MOBILE NO</string>
+    <string name="enter_email">EMAIL</string>
+    <string name="select_dealer">SELECT DEALER</string>
+    <string name="register">REGISTER</string>
+    <string name="signup_for_the_new_account">SIGN UP FOR NEW ACCOUNT</string>
+    <string name="login">LOGIN</string>
+    <string name="personnel">PERSONAL</string>
+    <string name="fullname">Full Name</string>
+    <string name="houseno">House No</string>
+    <string name="streetname">Street Name</string>
+    <string name="landmark">Landmark</string>
+    <string name="location">LOCATION</string>
+    <string name="pincode">Pincode</string>
+    <string name="place">Place</string>
+    <string name="state">State</string>
+    <string name="district">District</string>
+    <string name="block">Block</string>
+    <string name="contact">CONTACT</string>
+    <string name="email_id">Email Id</string>
+    <string name="std_code">STD Code</string>
+    <string name="phone_no">Phone No</string>
+    <string name="key_contact_person">Key Contact Person</string>
+    <string name="mobile_no">Mobile No</string>
+    <string name="next">NEXT</string>
+    <string name="title_activity_dealer__registration__step__two">
+        Dealer_Registration_Step_TwoActivity
+    </string>
+    <string name="business">Business</string>
+    <string name="type_of_firm">Type Of Firm</string>
+    <string name="business_style">Business Style</string>
+    <string name="dealer_distributor_for">Dealer/Destributor For</string>
+    <string name="product_dealing_info">Product Dealing Info</string>
+    <string name="crops">Crops</string>
+    <string name="licence">LICENCE</string>
+    <string name="pan_no">PAN No.</string>
+    <string name="vat_no">VAT No.</string>
+    <string name="tin_no">TIN No.</string>
+    <string name="fertilizer_licence_no">Fertilizer Licence No.</string>
+    <string name="seed_licence_no">Seed Licence No.</string>
+    <string name="insecticides_licence_no">Insecticides Licence No.</string>
+    <string name="other_licence_no">Other Licence No.</string>
+    <string name="prev">PREV</string>
+    <string name="hint_ok">ok</string>
+    <string name="hint_cancel">cancel</string>
+    <string name="drawer_open">open</string>
+    <string name="drawer_close">close</string>
+    <string name="password">PASSWORD</string>
+    <string name="category">Category</string>
+</resources>

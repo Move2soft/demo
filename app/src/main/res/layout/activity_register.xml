@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bacground"
+    android:orientation="vertical">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/value_25"
+        android:layout_gravity="fill_vertical"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/value_40"
+                android:layout_marginBottom="@dimen/value_50"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="@dimen/value_300"
+                    android:layout_height="@dimen/value_150"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/logo" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/etMobileNo"
+                    style="@style/txt_light_black_16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/custom_textview"
+                    android:gravity="left"
+                    android:hint="@string/enter_mobile_no"
+                    android:inputType="number"
+                    android:padding="@dimen/value_15"
+                    android:singleLine="true" />
+
+                <EditText
+                    android:id="@+id/etEmailId"
+                    style="@style/txt_light_black_16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="@dimen/value_10"
+                    android:background="@drawable/custom_textview"
+                    android:gravity="left"
+                    android:hint="@string/enter_email"
+                    android:inputType="textEmailAddress"
+                    android:padding="@dimen/value_15"
+                    android:singleLine="true" />
+
+                <EditText
+                    android:id="@+id/etPassword"
+                    style="@style/txt_light_black_16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="@dimen/value_10"
+                    android:background="@drawable/custom_textview"
+                    android:gravity="left"
+                    android:hint="@string/password"
+                    android:inputType="textPassword"
+                    android:padding="@dimen/value_15"
+                    android:singleLine="true" />
+
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/value_10">
+
+                    <TextView
+                        android:id="@+id/ttSelectDealer"
+                        style="@style/txt_light_black_16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/custom_textview"
+                        android:gravity="left"
+                        android:hint="@string/select_dealer"
+                        android:padding="@dimen/value_15" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="right"
+                        android:gravity="right"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="@dimen/value_1"
+                            android:layout_height="match_parent"
+                            android:background="@color/gray_light__" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:src="@drawable/ic_arrow_drop_down_" />
+                    </LinearLayout>
+
+                </FrameLayout>
+
+
+                <TextView
+                    android:id="@+id/ttRegister"
+                    style="@style/txt_white_17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/value_20"
+                    android:background="@drawable/primary_custom_textview"
+                    android:gravity="center"
+                    android:hint="@string/register"
+                    android:padding="@dimen/value_15"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>

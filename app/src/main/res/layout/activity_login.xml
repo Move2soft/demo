@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bacground"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="0.5"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="@dimen/value_300"
+                android:layout_height="@dimen/value_150"
+                android:scaleType="fitXY"
+                android:src="@drawable/logo" />
+
+        </LinearLayout>
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="@dimen/value_25"
+            android:layout_weight="0.5">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/etMobileNo"
+                    style="@style/txt_light_black_16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/custom_textview"
+                    android:gravity="left"
+                    android:hint="@string/enter_mobile_no"
+                    android:inputType="number"
+                    android:padding="@dimen/value_15"
+                    android:singleLine="true" />
+
+                <EditText
+                    android:id="@+id/etEmailId"
+                    style="@style/txt_light_black_16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/value_10"
+                    android:background="@drawable/custom_textview"
+                    android:gravity="left"
+                    android:hint="@string/enter_email"
+                    android:inputType="textEmailAddress"
+                    android:padding="@dimen/value_15"
+                    android:singleLine="true" />
+                <EditText
+                    android:id="@+id/etPassword"
+                    style="@style/txt_light_black_16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/value_10"
+                    android:background="@drawable/custom_textview"
+                    android:gravity="left"
+                    android:hint="@string/password"
+                    android:inputType="textPassword"
+                    android:padding="@dimen/value_15"
+                    android:singleLine="true" />
+
+
+                <TextView
+                    android:id="@+id/ttLogin"
+                    style="@style/txt_white_17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/value_20"
+                    android:background="@drawable/primary_custom_textview"
+                    android:gravity="center"
+                    android:hint="@string/login"
+                    android:padding="@dimen/value_15"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/ttRegister"
+                    style="@style/txt_white_14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/value_5"
+                    android:background="@android:color/transparent"
+                    android:gravity="center"
+                    android:hint="@string/signup_for_the_new_account"
+                    android:padding="@dimen/value_10" />
+
+
+            </LinearLayout>
+        </android.support.v4.widget.NestedScrollView>
+    </LinearLayout>
+
+</LinearLayout>
